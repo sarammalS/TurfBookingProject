@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Turf Management System (TurfSpot)
 
 A comprehensive Turf Management System built with Java Servlets, JSP, and MySQL, following SOLID principles and Clean Architecture.
@@ -63,3 +64,6 @@ For more detailed information, please refer to:
 
 ## 📄 License
 MIT License
+=======
+# TurfBookingProject
+>>>>>>> 8980b52ca9b2d5a31ba6118b5bf3f324b5845642
