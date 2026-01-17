@@ -2,7 +2,7 @@
 
 The TurfSpot system uses a MySQL relational database. The schema is optimized for data integrity and follows BCNF.
 
-## 📊 Entity Relationship Diagram
+##  Entity Relationship Diagram
 
 ```mermaid
 erDiagram
@@ -56,7 +56,7 @@ erDiagram
     }
 ```
 
-## 📋 Table Descriptions
+##  Table Descriptions
 
 ### `users`
 Stores user credentials and roles. Passwords are encrypted using BCrypt.
