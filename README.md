@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 # Turf Management System (TurfSpot)
 
 A comprehensive Turf Management System built with Java Servlets, JSP, and MySQL, following SOLID principles and Clean Architecture.
 
-## 🎯 Project Outcome
+##  Project Outcome
 
 The project works end-to-end:
 - **Admin**: Manages turfs, slots, images, and bookings.
@@ -11,7 +11,7 @@ The project works end-to-end:
 - **Security**: Prevents double booking and ensures secure access.
 - **Architecture**: Built with proper SOLID principles and a normalized database (BCNF).
 
-## 🚀 Features
+##  Features
 
 - **User Authentication**: Secure Login/Logout/Registration with BCrypt.
 - **Dashboard**: Interactive user dashboard to explore turfs and manage bookings.
@@ -20,7 +20,7 @@ The project works end-to-end:
 - **Booking Engine**: Reliable reservation system with concurrency checks.
 - **Reviews & Ratings**: User feedback system for quality assurance.
 
-## 🏗 Architecture & Design Patterns
+##  Architecture & Design Patterns
 
 ### SOLID Principles
 - **Single Responsibility**: Servlets, Services, and DAOs have a single core task.
@@ -32,14 +32,14 @@ The project works end-to-end:
 ### Database Normalization
 The schema follows **1NF, 2NF, 3NF, and BCNF** to ensure data integrity and zero redundancy.
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Backend**: Java 17, Servlets 4.0
 - **Frontend**: JSP, JSTL, Vanilla CSS, JavaScript
 - **Database**: MySQL 8.0
 - **Security**: BCrypt Hashing, Session management
 - **Build Tool**: Maven
 
-## 📚 Documentation
+## Documentation
 
 For more detailed information, please refer to:
 - [User Guide](docs/USER_GUIDE.md) - How to use the app.
@@ -48,7 +48,7 @@ For more detailed information, please refer to:
 - [Architecture Guide](ARCHITECTURE.md) - SOLID & Design Patterns.
 - [Maintenance Guide](docs/MAINTENANCE.md) - For developers.
 
-## 🚦 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - JDK 17+
@@ -62,8 +62,4 @@ For more detailed information, please refer to:
 4. Run `mvn clean package`.
 5. Deploy the `target/TurfManagementSystem.war` to Tomcat.
 
-## 📄 License
-MIT License
-=======
-# TurfBookingProject
->>>>>>> 8980b52ca9b2d5a31ba6118b5bf3f324b5845642
+
