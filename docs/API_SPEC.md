@@ -2,7 +2,7 @@
 
 This document details the endpoints (Servlets) available in the TurfSpot system and their expected parameters.
 
-## 🌐 Endpoints
+## Endpoints
 
 ### 1. User Servlet (`/user`)
 Handles authentication and profile management.
@@ -43,7 +43,7 @@ Handles feedback submission.
 | :--- | :--- | :--- |
 | POST | `turfId`, `rating`, `comment` | Submits a review for a turf. |
 
-## 🛠 Internal API (Service Layer)
+## Internal API (Service Layer)
 All business logic is abstracted into the `com.turfmanagement.service` package. 
 Controllers should never call the DAO layer directly.
 
