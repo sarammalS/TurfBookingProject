@@ -2,7 +2,7 @@
 
 Welcome to the TurfSpot User Guide. This document provides step-by-step instructions on how to use the Turf Management System.
 
-## 👥 For Users
+## For Users
 
 ### 1. Registration & Login
 - Navigate to the home page (login.jsp).
@@ -31,7 +31,7 @@ Welcome to the TurfSpot User Guide. This document provides step-by-step instruct
 
 ---
 
-## 🔑 For Administrators
+##  For Administrators
 
 > [!NOTE]
 > Admin roles are assigned in the `users` table with the `role` set to 'ADMIN'.
