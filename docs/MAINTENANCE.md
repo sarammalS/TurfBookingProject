@@ -2,7 +2,7 @@
 
 This guide is intended for developers who wish to maintain or extend the TurfSpot system.
 
-## 🛠 Project Structure
+##  Project Structure
 
 - `com.turfmanagement.model`: POJO classes.
 - `com.turfmanagement.dao`: Data access interfaces.
@@ -13,7 +13,7 @@ This guide is intended for developers who wish to maintain or extend the TurfSpo
 - `webapp/jsp`: Front-end presentation.
 - `webapp/css`: Styling.
 
-## ➕ Adding a New Feature
+##  Adding a New Feature
 
 To add a new entity (e.g., "Payments"):
 1. Create the `Payment` model.
@@ -22,15 +22,15 @@ To add a new entity (e.g., "Payments"):
 4. Register the new service in the `PaymentServlet`.
 5. Create the JSPs in the `webapp/jsp` folder.
 
-## 🧪 Testing
+## Testing
 - The system is designed for **Unit Testing** by mocking the Service and DAO interfaces.
 - Use **JUnit 5** and **Mockito** for tests (Dependencies should be added to `pom.xml`).
 
-## 🔄 Database Migrations
+## Database Migrations
 - All structural changes should be reflected in `schema.sql`.
 - Follow **ACID** principles when modifying transactions, especially in `BookingDAOImpl`.
 
-## 📦 Deployment
+##  Deployment
 - Ensure `db.properties` is correctly configured for the target environment.
 - Use `mvn clean package` to generate the WAR file.
 - Support for Dockerization can be added by creating a `Dockerfile` with a Tomcat base image.
