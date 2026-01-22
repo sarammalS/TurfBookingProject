@@ -22,9 +22,6 @@ To add a new entity (e.g., "Payments"):
 4. Register the new service in the `PaymentServlet`.
 5. Create the JSPs in the `webapp/jsp` folder.
 
-## Testing
-- The system is designed for **Unit Testing** by mocking the Service and DAO interfaces.
-- Use **JUnit 5** and **Mockito** for tests (Dependencies should be added to `pom.xml`).
 
 ## Database Migrations
 - All structural changes should be reflected in `schema.sql`.
